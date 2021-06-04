@@ -1,0 +1,10 @@
+# Defining a new host (someHost) that is equivalent to the "implicit localhost" host that is created by ansible
+# https://docs.ansible.com/ansible/latest/inventory/implicit_localhost.html
+
+all:
+  hosts:
+    someHost:
+      ansible_connection: local
+      ansible_python_interpreter: "{{ ansible_playbook_python }}"
+      filepath: /tmp/k8s-file.txt
+      running_in_k8s: true
