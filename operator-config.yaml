@@ -5,12 +5,12 @@
 # Required
 domain: ibm
 name: public-coll
-version: 0.1.0
+version: 0.2.0
 inventoryName: someHost
 
 displayName: Easy Plays
 description: >-
-  # Simple Plays
+  # Simple Plays v0.2.0
   The `simple_plays` collection contains some example inventory configurations and simple playbooks that may be run standalone or via Kubernetes.
 
 resources:
