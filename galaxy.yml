@@ -1,0 +1,35 @@
+namespace: ibm
+
+name: public-coll
+
+# The collection version
+version: 0.1.0
+
+# Collection README file
+readme: README.md
+
+# Contributors
+authors:
+  - "Ivan Dovgan <ivandov@us.ibm.com>"
+
+# Description
+description: The simple_plays collection contains some example inventory configurations and simple playbooks
+
+# This collection is licensed under Apache License, Version 2.0
+license:
+  - "GPL-2.0-or-later"
+
+# Tags
+tags: [operator_collection]
+
+# The URL of the originating SCM repository
+repository: http://example.com/repository
+
+# # The URL to any online docs
+documentation: http://docs.example.com
+
+# # The URL to the homepage of the collection/project
+homepage: http://example.com
+
+# # The URL to the collection issue tracker
+issues: http://example.com/issue/tracker
