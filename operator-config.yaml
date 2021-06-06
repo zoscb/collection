@@ -16,7 +16,7 @@ description: >-
 resources:
   - kind: File
     description: Connect to a z/OS Endpoint via Ansible and touch a file
-    playbook: /opt/ansible/playbook.yml
+    playbook: /opt/ansible/playbooks/file.yml
     vars:
       - name: filepath
         displayName: File Path
