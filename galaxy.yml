@@ -3,7 +3,7 @@ namespace: ibm
 name: public-coll
 
 # The collection version
-version: 0.1.0
+version: 0.3.0
 
 # Collection README file
 readme: README.md
