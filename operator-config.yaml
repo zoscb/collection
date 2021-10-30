@@ -5,7 +5,7 @@
 # Required
 domain: ibm
 name: public-coll
-version: 0.1.0
+version: 0.3.0
 inventoryName: someHost
 
 displayName: Easy Plays
@@ -16,7 +16,7 @@ description: >-
 resources:
   - kind: File
     description: Connect to a z/OS Endpoint via Ansible and touch a file
-    playbook: /opt/ansible/playbook.yml
+    playbook: playbook.yml
     vars:
       - name: filepath
         displayName: File Path
